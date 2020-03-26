@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: hsl(229, 6%, 66%);
+    line-height: 30px;
+}
+
+h1,h4{
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+
+img{
+    float: right;
+}
+
+.container{
+    max-width: 90vh;
+
+}
+
+.topcontainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.topcontainer p{
+    padding-bottom: 15px;
+    width: 80%;
+
+}
+
+.midheader{
+    margin: -20px 0 -10px 0;
+}
+
+.customheader{
+    font-weight: 200;
+}
+
+.bottomcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1,.box2,.box3,.box4{
+    background-color: #fff;
+    width: 350px;
+    height: 200px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.box1{
+    border-top: 5px solid hsl(180, 62%, 55%);
+    
+}
+
+.box2{
+    border-top: 5px solid hsl(0, 78%, 62%);
+    margin-bottom: 30px;
+}
+
+.box3{
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.box4{
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+@media only screen and (max-width: 1250px){
+
+    .bottomcontainer{
+        flex-direction: column;
+    }
+}
+
