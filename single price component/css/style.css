@@ -1,0 +1,113 @@
+/*
+Challanged by : Front-end Mentor
+Coded by : Prabesh Guragain
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(218, 22%, 67%);
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 9.5px;
+    box-shadow: 1px 1px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box{
+    padding: 40px;
+    flex: 1;
+}
+
+.firstbox{
+    background-color: #fff;
+}
+
+.firstbox h2{
+    color: hsl(179, 62%, 43%);
+}
+
+.firstbox h3{
+    color: hsl(71, 73%, 54%);
+}
+
+.firstbox p{
+    color: hsl(218, 22%, 67%);
+    line-height: 25px;
+}
+
+.secondboxcontainer{
+    display: flex;
+}
+
+.secondbox{
+    background-color: hsl(179, 62%, 43%);
+}
+
+.secondbox p{
+    display: flex;
+    align-items: center;
+}
+
+.secondbox p span{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#textopacity{
+    font-size: 16px;
+    opacity: 0.7;
+    font-weight: normal;
+}
+
+.btn{
+    background-color: hsl(71, 73%, 54%);
+    border: 0px;
+    color: #fff;
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 1px 1px 8px 8px rgba(0, 0, 0, 0.05);
+}
+
+.thirdbox{
+    background-color: rgb(66, 184, 182);
+}
+
+.thirdbox ul{
+    list-style-type: none;
+    padding: 0;
+    opacity: 0.85;
+}
+
+.thirdbox ul li{
+    line-height: 20px;
+}
+
+@media only screen and (max-width: 800px){
+    .container{
+        margin: 25px;
+    }
+    
+    .secondboxcontainer{
+        flex-direction: column;
+    }
+}
