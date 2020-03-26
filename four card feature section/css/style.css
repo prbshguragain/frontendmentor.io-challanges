@@ -19,12 +19,16 @@ h1,h4{
     font-weight: 600;
 }
 
+h4{
+    margin-top: -1px;
+}
+
 img{
     float: right;
 }
 
 .container{
-    max-width: 90vh;
+    
 
 }
 
@@ -86,6 +90,14 @@ img{
 
     .bottomcontainer{
         flex-direction: column;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    .box1,.box2,.box3,.box4{
+        width: 300px;
     }
 }
 
