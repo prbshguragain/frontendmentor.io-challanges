@@ -1,0 +1,70 @@
+.container{
+    width: 50vh;
+}
+
+body{
+    overflow: hidden;
+    text-align: center;
+    color: hsl(0, 0%, 59%);
+}
+
+.container{
+    margin: auto;
+    min-width: 40%;
+}
+
+.logo{
+    margin: 55px 0 0 0;
+}
+
+h1{
+    font-weight: 200;
+    font-size: 50px;
+    margin-bottom: -10px;
+}
+
+h1 span{
+    font-weight: 600;
+    color: #000;
+}
+
+p{
+    margin: 30px 0;
+    color: hsl(209, 33%, 12%);
+    font-size: 20px;
+}
+
+::placeholder{
+    color: hsla(0, 0%, 59%, 0.4);
+}
+
+form{
+    margin-bottom: 55px;
+}
+
+input{
+    height: 43px;
+    width: 55%;
+    padding-left: 30px;
+    border-radius: 30px;
+    border: 1px solid hsla(0, 0%, 59%, 0.4);
+}
+
+button{
+    height: 45px;
+    width: 30%;
+    border: none;
+    border-radius: 30px;
+    background-color: hsl(223, 87%, 63%);
+    color: #fff;
+    box-shadow: 0 0 2px hsl(223, 87%, 63%);
+}
+
+.image{
+    width: 100%;
+}
+
+small{
+    color: hsla(0, 0%, 59%, 0.7);
+}
+
