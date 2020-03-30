@@ -1,6 +1,6 @@
 function validate(){
     var getText = document.getElementById("text1").value;
-    var regX = /^([a-z0-9\.-]+)@([a-z0-9-]+).([a-z]{2,8})(.[a-z]{2,8})?$/;
+    var regX = /^([a-zA-Z0-9\.-]+)@([a-z0-9-]+).([a-z]{2,8})(.[a-z]{2,8})?$/;
     
     if (regX.test(getText)){
         document.getElementById("error").style.visibility="hidden";
