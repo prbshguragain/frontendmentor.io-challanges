@@ -65,7 +65,7 @@ form button{
     width: 100px;
     border-radius: 30px;
     position: absolute;
-    top: 0;
+    top: 1.2px;
     right: 0;
     height: 56px;
     border: none;
@@ -103,6 +103,20 @@ form button:hover{
     font-family: 'Josefin Sans', sans-serif;
     color: hsl(0, 74%, 74%);
     font-weight: 600;
+}
+
+#erroricon{
+    position: absolute;
+    right: 110px;
+    top: -43px;
+}
+
+#error{
+    padding-left: 35px;
+}
+
+#erroricon,#error{
+    visibility: hidden;
 }
 
 .rightcontainer{
@@ -161,4 +175,19 @@ form button:hover{
     button img{
         position: static;
     }
+
+    #erroricon{
+        position: absolute;
+        right: 75px;
+        top: 16px;
+    }
+    
+    #error{
+        padding: 0px;
+    }
+    
+    #erroricon,#error{
+        visibility: hidden;
+    }
+    
   }

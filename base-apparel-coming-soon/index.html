@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="script/script.js"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
   <title>Base Apparel coming soon page</title>
 </head>
 <body>
@@ -17,11 +19,13 @@
         <p>Hello fellow shoppers! We're currently building our new fashion store. 
         Add your email below to stay up-to-date with announcements and our launch deals.</p>
         <form>
-        <input type="email" placeholder="Email Address">
-        <button>
+        <input type="text" placeholder="Email Address" id="text1">
+        <img src="images/icon-error.svg" id="erroricon">
+        <button onclick="validate()" type="button">
             <img src="images/icon-arrow.svg">
         </button>
         </form>
+        <p><small id="error">Please provide a valid email</small></p>
       </div>
     </div>
     <div class="rightcontainer">
