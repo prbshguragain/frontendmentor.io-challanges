@@ -6,23 +6,26 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/style.css">
   <title>Ping coming soon page</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
   <div class="container">
     <img src="images/logo.svg" class="logo">
     <h1>We are launching <span>soon!</span></h1>
-    <p>Subscribe and get notified</p>
+    <p id="sub">Subscribe and get notified</p>
     <form>
-      <input type="email" placeholder="Your email address">
-      <button>Notify Me</button>
+      <input type="text" placeholder="Your email address" id="text1">
+      <button onclick="validate()">Notify Me</button>
+      <p><small id="error">Please provide a valid email address</small></p>
     </form>
     <img src="images/illustration-dashboard.png" class="image">
     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li><i class="fab fa-facebook-f"></i></i></li>
+      <li><i class="fab fa-twitter"></i></li>
+      <li><i class="fab fa-instagram"></i></li>
     </ul>
     <small>&copy; Copyright Ping. All rights reserved.</small>
   </div>
+  <script type="text/javascript" src="script/script.js"></script>
 </body>
 </html>
